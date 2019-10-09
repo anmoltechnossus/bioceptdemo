@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="biocept.qa.testcases.CTC_FISHWorklow">
+        <methods>
+          <include name="ReportVersionSelectionPopUp"/>
+          <include name="CellCepProcessing"/>
+          <include name="dashboard"/>
+          <include name="PlaceNewOrder"/>
+          <include name="PIActivityTitle"/>
+          <include name="ReopenConfirmationPopupOnCompletedWorklist"/>
+          <include name="PhysicianPortalLogin"/>
+          <include name="CellSepBatching"/>
+          <include name="QAReportingWorklist"/>
+          <include name="MEMSProcessingActivityTitle"/>
+          <include name="LIMSLogin"/>
+          <include name="MemsBatchingActivityTitle"/>
+          <include name="EnumerationImageReviewActivityTitle"/>
+          <include name="QAReportingWorklistTitle"/>
+          <include name="GenerateMolecularLabel"/>
+          <include name="SignoffReportFromPhysicianPortal"/>
+          <include name="FISHReloAnalysisActivityTitle"/>
+          <include name="CTC_FISH_ScoreSheet"/>
+          <include name="FISHReloAnalysis"/>
+          <include name="QC_CompleteButtonOnProfessionalInterpretation"/>
+          <include name="ActivityTitleAfterReOpen"/>
+          <include name="EnumerationImageReview"/>
+          <include name="PatientNameOnBarcodePage"/>
+          <include name="OrderHistoryWorklist"/>
+          <include name="GoBacktoPhysicianPortalButton"/>
+          <include name="MyWorklistTitle"/>
+          <include name="CTC_FISH_SampleTraveler"/>
+          <include name="CellSepBatchingActivityTitle"/>
+          <include name="QCComplete"/>
+          <include name="CompletedWorklist"/>
+          <include name="CTC_FISH_SummaryReport"/>
+          <include name="FishReviewApproveTitle"/>
+          <include name="UploadAccessionImagesPageTitle"/>
+          <include name="TechOnlyProfessionalInterpretation"/>
+          <include name="FISHAutobatchedworklistActivityTitle"/>
+          <include name="CTCICCResultsSummaryActivityTitle"/>
+          <include name="FISHResultsSummary"/>
+          <include name="FISHAutobatchedworklist"/>
+          <include name="AccesstionType"/>
+          <include name="CTCICCResultsSummary"/>
+          <include name="GenerateSmallLabel"/>
+          <include name="GenerateLongLabel"/>
+          <include name="BioviewScanDataActivityTitle"/>
+          <include name="getResult"/>
+          <include name="DownloadPlasmaCSV"/>
+          <include name="ConfirmationOnTechOnlyPI"/>
+          <include name="setup"/>
+          <include name="FISHResultsSummaryActivityTitle"/>
+          <include name="MEMSProcessing"/>
+          <include name="AssignProfessionalWorkToBiocept"/>
+          <include name="CellCepProcessingActivityTitle"/>
+          <include name="SignoffTheReportForNewVersion"/>
+          <include name="BioviewScanData"/>
+          <include name="MemsBatching"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTC_FISHWorklow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

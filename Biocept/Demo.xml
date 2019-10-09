@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+ <suite  verbose="1" name="Biocept"   > 
+<listeners>
+<!--  <listener class-name="biocept.qa.listeners.CustomListeners"/> -->
+ <listener class-name="biocept.qa.extentreport.ExtentListeners"/>
+ </listeners>
+
+  <test name="CTC-FISH Workflow">
+	 <classes>
+	   <class name="biocept.qa.testcases.Dummy"/>
+	 </classes>
+   </test>
+   
+
+</suite>

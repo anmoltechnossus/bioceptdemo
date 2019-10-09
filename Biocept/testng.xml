@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+ <suite thread-count="2" verbose="1" name="Biocept"  parallel="tests" > 
+ <listeners>
+<!--  <listener class-name="biocept.qa.listeners.CustomListeners"/> -->
+ <listener class-name="biocept.qa.extentreport.ExtentListeners"/>
+ </listeners>
+
+  <test name="CTC-FISH Workflow">
+	 <classes>
+	  <parameter name = "browser" value="chrome"/>
+	   <class name="biocept.qa.testcases.CTC_FISHWorklow"/>
+	 </classes>
+   </test>
+   
+    <test name="Molecular Workflow">
+    <parameter name = "browser" value="chrome"/>
+	 <classes>
+	   <class name="biocept.qa.testcases.TestConfig"/>
+	 </classes>
+   </test>  
+
+</suite>

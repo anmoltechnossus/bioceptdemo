@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Biocept]">
+  <test name="CTC-FISH Workflow(failed)">
+    <classes>
+      <class name="biocept.qa.testcases.Dummy">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.Dummy -->
+    </classes>
+  </test> <!-- CTC-FISH Workflow(failed) -->
+</suite> <!-- Failed suite [Biocept] -->
